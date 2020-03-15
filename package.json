@@ -1,0 +1,24 @@
+{
+  "name": "adopt-me",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier \" html/*.html\" --write",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DukeJeans/adopt-me.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DukeJeans/adopt-me/issues"
+  },
+  "homepage": "https://github.com/DukeJeans/adopt-me#readme",
+  "devDependencies": {
+    "prettier": "^1.19.1"
+  }
+}
