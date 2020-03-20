@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev:mock": "cross-env PET_MOCK=mock npm run dev",
     "dev": "parcel html/index.html",
     "format": "prettier \" html/*.html\" --write",
     "lint": "eslint \"./**/*.{js,jsx}\" --quiet",
@@ -22,6 +23,7 @@
   "homepage": "https://github.com/DukeJeans/adopt-me#readme",
   "devDependencies": {
     "babel-eslint": "^10.1.0",
+    "cross-env": "^7.0.2",
     "eslint": "^6.8.0",
     "eslint-config-prettier": "^6.10.0",
     "eslint-plugin-import": "^2.20.1",
@@ -35,5 +37,16 @@
     "@frontendmasters/pet": "^1.0.3",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
-  }
+  },
+  "browserslist": [
+    "last 2 Chrome versions",
+    "last 2 ChromeAndroid versions",
+    "last 2 Firefox versions",
+    "last 2 FirefoxAndroid versions",
+    "last 2 Safari versions",
+    "last 2 iOS versions",
+    "last 2 Edge versions",
+    "last 2 Opera versions",
+    "last 2 OperaMobile versions"
+  ]
 }

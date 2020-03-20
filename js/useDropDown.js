@@ -10,7 +10,7 @@ const useDropDown = (label, defaultState, options) => {
         id={id}
         value={state}
         onChange={e => setState(e.target.value)}
-        OnBlur={e => setState(e.target.value)}
+        onBlur={e => setState(e.target.value)}
         disabled={!options.length}
       >
         <option>All</option>
